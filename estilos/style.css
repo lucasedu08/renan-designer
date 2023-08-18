@@ -166,14 +166,14 @@ top: 40px;
         transition: background-color 0.3s, transform 0.2s ease; /* Transições suaves */
         transform-origin: center center; /* Define o ponto central como origem da transformação */
         overflow: hidden; /* Esconde o conteúdo que ultrapassar os limites do link */
-        top: 200px;
+        top: 100px;
     left: 10px;
     }
     
 .strong-1{
     position: relative;
     top: 10px;
-    left: 120px;
+    left: 100px;
     font-weight: bolder;
 }
 .strong-2{
@@ -181,7 +181,7 @@ font-weight: normal;
 position: absolute;
 top: 70px;
 
-left: 180px;
+left: 170px;
 }
 .designer-imagem-2{
     position: relative;
