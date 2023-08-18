@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/imagens/fundo-texturizado-abstrato.jpg);
+    background-position: left;
+}
+
+body, html {
+    height: 100vh;
+    width: 50vw;
+}
+
+.designer-imagem {
+    max-width: 100vw;
+    position: relative;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    margin: auto;
+    display: flex;
+    border: .8px solid white;
+    top: 200px;
+    left: 300px;
+}
+.designer-p-1{
+    position: relative;
+left: 300px;
+    text-align: center;
+color: rgba(255, 255, 255, 0.908);
+top: -10px;
+}
+.designer-p-2{
+    text-align: center;
+color: rgba(255, 255, 255, 0.908);
+font-size: 2em;
+position: relative;
+left: 300px;
+}
+@media (max-width: 768px) {
+    /* Para dispositivos com largura máxima de 768px (geralmente dispositivos móveis) */
+    .designer-imagem {
+        top: 20px; /* Ajuste conforme necessário */
+        left: 4px; /* Ajuste conforme necessário */
+    }
+}
+
+@media (max-width: 768px) {
+    .designer-imagem {
+        max-width: 100vw;
+        position: relative;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        margin: auto;
+        display: flex;
+        border: .8px solid white;
+        top: 50px;
+        left: 40px;
+    }
+    .designer-p-1{
+        text-align: center;
+    color: rgba(255, 255, 255, 0.908);
+    position: relative;
+    top: 11px;
+left: 130px;
+    }
+    .designer-p-2{
+        text-align: center;
+    color: rgba(255, 255, 255, 0.908);
+    font-size: .9em;
+    position: relative;
+    left: 130px;
+    top: 10px;
+    font-weight: normal;
+    }
+    /* Estilos para dispositivos com largura máxima de 768px (geralmente dispositivos móveis) */
+
+    /* iPhone SE, 5, 5S, 5C */
+    /* Largura: 320px, Altura: 568px */
+
+    /* Google Pixel 2 */
+    /* Largura: 411px, Altura: 731px */
+
+    /* iPhone 6, 6S, 7, 8, X */
+    /* Largura: 375px, Altura: 667px */
+
+    /* iPhone 6 Plus, 6S Plus, 7 Plus, 8 Plus */
+    /* Largura: 414px, Altura: 736px */
+
+    /* Google Pixel 2 XL */
+    /* Largura: 411px, Altura: 823px */
+
+    /* Samsung Galaxy S8, S9 */
+    /* Largura: 360px, Altura: 740px */
+
+    /* Samsung Galaxy S8+, S9+ */
+    /* Largura: 412px, Altura: 846px */
+
+    /* iPhone 11, XR */
+    /* Largura: 414px, Altura: 896px */
+
+    /* iPhone 11 Pro, XS, X */
+    /* Largura: 375px, Altura: 812px */
+
+    /* iPhone 11 Pro Max, XS Max */
+    /* Largura: 414px, Altura: 896px */
+
+    /* Google Pixel 3, 3a */
+    /* Largura: 393px, Altura: 786px */
+
+    /* Google Pixel 3 XL, 3a XL */
+    /* Largura: 412px, Altura: 823px */
+
+    /* Samsung Galaxy S10 */
+    /* Largura: 360px, Altura: 760px */
+
+    /* Samsung Galaxy S10+ */
+    /* Largura: 412px, Altura: 869px */
+
+    /* Samsung Galaxy S10e */
+    /* Largura: 360px, Altura: 740px */
+
+    /* Google Pixel 4 */
+    /* Largura: 411px, Altura: 869px */
+
+    /* Google Pixel 4 XL */
+    /* Largura: 411px, Altura: 952px */
+
+    /* Samsung Galaxy S20 */
+    /* Largura: 320px, Altura: 640px */
+
+    /* Samsung Galaxy S20+ */
+    /* Largura: 384px, Altura: 849px */
+
+    /* Samsung Galaxy S20 Ultra */
+    /* Largura: 412px, Altura: 915px */
+}
