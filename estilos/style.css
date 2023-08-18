@@ -42,6 +42,14 @@ font-size: 2em;
 position: relative;
 left: 300px;
 }
+.designer-infor{
+    position: relative;
+   text-align: center;
+color: white;
+font-size: 1.2em;
+left: 310px;
+top: 180px;
+}
 @media (max-width: 768px) {
     /* Para dispositivos com largura máxima de 768px (geralmente dispositivos móveis) */
     .designer-imagem {
