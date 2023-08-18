@@ -58,21 +58,21 @@ left: 300px;
         display: flex;
         border: .8px solid white;
         top: 50px;
-        left: 30px;
+        left: 20px;
     }
     .designer-p-1{
         text-align: center;
     color: rgba(255, 255, 255, 0.908);
     position: relative;
     top: 11px;
-left: 125px;
+left: 120px;
     }
     .designer-p-2{
         text-align: center;
     color: rgba(255, 255, 255, 0.908);
     font-size: .9em;
     position: relative;
-    left: 125px;
+    left: 120px;
     top: 10px;
     font-weight: normal;
     }
