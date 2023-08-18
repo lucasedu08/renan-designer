@@ -189,6 +189,10 @@ left: 170px;
     left: 50px;
     top: 10px;
 }
+title{
+    background-color: black;
+    color: white;
+}
     /* Estilos para dispositivos com largura máxima de 768px (geralmente dispositivos móveis) */
 
     /* iPhone SE, 5, 5S, 5C */
