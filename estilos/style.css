@@ -50,6 +50,63 @@ font-size: 1.2em;
 left: 310px;
 top: 180px;
 }
+.link-designer {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    height: 80px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s ease; /* Transições suaves */
+    transform-origin: center center; /* Define o ponto central como origem da transformação */
+    overflow: hidden; /* Esconde o conteúdo que ultrapassar os limites do link */
+    top: 300px;
+left: 460px;
+}
+
+.link-designer:hover,
+.link-designer:active {
+    background-color: rgba(255, 255, 255, 0.2); /* Cor de fundo com transparência */
+}
+
+.link-designer:active {
+    background-color: rgba(255, 255, 255, 0.4); /* Cor de fundo mais clara quando pressionado */
+    transform: scale(1.1); /* Aumenta a escala para criar o efeito de expansão */
+}
+
+
+
+
+.strong-1{
+    position: relative;
+    top: 10px;
+    left: 160px;
+    font-weight: bolder;
+}
+.strong-2{
+font-weight: normal;
+position: relative;
+top: 40px;
+}
+.div-1{
+    position: relative;
+    border: 2px solid white; 
+    border-radius: 10px;
+padding: 10px;
+    text-align: right;
+    width: 300px;
+    height: 100px;
+    top: 300px;
+    left: 490px;
+}
+.designer-imagem-2{
+    position: relative;
+    max-width: 70px;
+    left: 120px;
+    top: 270px;
+}
 @media (max-width: 768px) {
     /* Para dispositivos com largura máxima de 768px (geralmente dispositivos móveis) */
     .designer-imagem {
@@ -96,6 +153,42 @@ top: 40px;
     top: 10px;
     font-weight: normal;
     }
+    .link-designer {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        position: relative;
+        height: 80px;
+        width: 300px;
+        padding: 30px;
+        border: 2px solid white;
+        border-radius: 10px;
+        transition: background-color 0.3s, transform 0.2s ease; /* Transições suaves */
+        transform-origin: center center; /* Define o ponto central como origem da transformação */
+        overflow: hidden; /* Esconde o conteúdo que ultrapassar os limites do link */
+        top: 300px;
+    left: 10px;
+    }
+    
+.strong-1{
+    position: relative;
+    top: 10px;
+    left: 120px;
+    font-weight: bolder;
+}
+.strong-2{
+font-weight: normal;
+position: absolute;
+top: 70px;
+
+left: 180px;
+}
+.designer-imagem-2{
+    position: relative;
+    max-width: 70px;
+    left: 50px;
+    top: 190px;
+}
     /* Estilos para dispositivos com largura máxima de 768px (geralmente dispositivos móveis) */
 
     /* iPhone SE, 5, 5S, 5C */
