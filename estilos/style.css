@@ -114,8 +114,10 @@ padding: 10px;
         left: 4px; /* Ajuste conforme necessário */
     }
 }
+@media (min-width: 420px) and (max-width: 768px) {
 
-@media (max-width: 768px) {
+}
+@media (max-width: 478px) {
     .designer-imagem {
         max-width: 100vw;
         position: relative;
