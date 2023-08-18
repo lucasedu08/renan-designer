@@ -7,9 +7,11 @@ body {
     background-image: url(../imagens/969813_OG49MM0.jpg);
     background-position: left center;
     background-attachment: fixed;
+    transition-duration: .9s;
 }
 
 body, html {
+    transition-duration: .9s;
     height: 100vh;
     width: 50vw;
 }
