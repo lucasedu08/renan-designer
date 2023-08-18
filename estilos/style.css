@@ -167,7 +167,8 @@ top: 40px;
         transform-origin: center center; /* Define o ponto central como origem da transformação */
         overflow: hidden; /* Esconde o conteúdo que ultrapassar os limites do link */
         top: 100px;
-    left: 10px;
+text-align: center;
+left: 15px;
     }
     
 .strong-1{
@@ -180,8 +181,8 @@ top: 40px;
 font-weight: normal;
 position: absolute;
 top: 70px;
-
-left: 170px;
+width: 400px;
+left: 50px;
 }
 .designer-imagem-2{
     position: relative;
