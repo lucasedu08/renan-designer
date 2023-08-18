@@ -69,11 +69,12 @@ left: 300px;
     position: relative;
     top: 11px;
 left: 115px;
+font-size: .9em;
     }
     .designer-p-2{
         text-align: center;
     color: rgba(255, 255, 255, 0.908);
-    font-size: .9em;
+    font-size: .8em;
     position: relative;
     left: 115px;
     top: 10px;
