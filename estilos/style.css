@@ -71,6 +71,14 @@ left: 300px;
 left: 115px;
 font-size: .9em;
     }
+    .designer-infor{
+        position: relative;
+       text-align: center;
+ color: white;
+ font-size: 1.2em;
+left: 90px;
+top: 40px;
+    }
     .designer-p-2{
         text-align: center;
     color: rgba(255, 255, 255, 0.908);
