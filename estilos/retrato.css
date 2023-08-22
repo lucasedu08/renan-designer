@@ -589,7 +589,7 @@ width: 300px;
         overflow: hidden; /* Esconde o conteúdo que ultrapassar os limites do link */
         top: 100px;
 text-align: center;
-left: 14px;
+left: 18px;
     }
     
 .strong-1{
@@ -624,7 +624,9 @@ title{
 @media (min-width: 375px) and (max-width: 425px) {
 
 }
+@media (min-width: 382px) and (max-width: 425px) {
 
+}
 @media(max-width: 525px) {
 
 }
