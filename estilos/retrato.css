@@ -988,7 +988,7 @@ title{
         display: flex;
         border: .8px solid white;
         top: 50px;
-left: 30px;
+left: 28px;
     }
     .designer-p-1{
         text-align: center;
@@ -1031,7 +1031,7 @@ width: 300px;
         overflow: hidden; /* Esconde o conteúdo que ultrapassar os limites do link */
         top: 100px;
 text-align: center;
-left: 28px;
+left: 33px;
     }
     
 .strong-1{
