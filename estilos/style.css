@@ -338,7 +338,7 @@ title{
     /* Samsung Galaxy S20 Ultra */
     /* Largura: 412px, Altura: 915px */
 }
-@media (max-width: 425px) {
+@media (max-width: 361px) {
     .designer-imagem {
         max-width: 100vw;
         position: relative;
