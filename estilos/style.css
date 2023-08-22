@@ -196,7 +196,7 @@ title{
     color: white;
 }
 }
-@media (max-width: 362px) {
+@media (max-width: 374px) {
     .designer-imagem {
         max-width: 100vw;
         position: relative;
@@ -338,7 +338,7 @@ title{
     /* Samsung Galaxy S20 Ultra */
     /* Largura: 412px, Altura: 915px */
 }
-@media (min-width: 362px) and (max-width: 425px) {
+@media (min-width: 375px) and (max-width: 425px) {
     .designer-imagem {
         max-width: 100vw;
         position: relative;
@@ -349,14 +349,14 @@ title{
         display: flex;
         border: .8px solid white;
         top: 50px;
-left: 50px;
+left: 30px;
     }
     .designer-p-1{
         text-align: center;
     color: rgba(255, 255, 255, 0.908);
     position: relative;
     top: 11px;
-left: 135px;
+left: 115px;
 font-size: .9em;
     }
     .designer-infor{
@@ -364,7 +364,7 @@ font-size: .9em;
        text-align: center;
  color: white;
  font-size: 1em;
-left:65px;
+left:35px;
 top: 40px;
 width: 300px;
     }
@@ -373,7 +373,7 @@ width: 300px;
     color: rgba(255, 255, 255, 0.908);
     font-size: .8em;
     position: relative;
-    left: 135px;
+    left: 115px;
     top: 10px;
     font-weight: normal;
     }
@@ -392,7 +392,7 @@ width: 300px;
         overflow: hidden; /* Esconde o conteúdo que ultrapassar os limites do link */
         top: 100px;
 text-align: center;
-left: 38px;
+left: 14px;
     }
     
 .strong-1{
