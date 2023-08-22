@@ -532,8 +532,9 @@ title{
 
 @media (min-width: 387px) and (max-width: 425px) {
     .designer-imagem {
-        top: 20px; /* Ajuste conforme necessário */
-        left: 4px; /* Ajuste conforme necessário */
+        position: relative;
+        top: 50px; /* Ajuste conforme necessário */
+        left: 20px; /* Ajuste conforme necessário */
     }
 }
 @media  (max-width: 768px) {
