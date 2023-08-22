@@ -349,14 +349,14 @@ title{
         display: flex;
         border: .8px solid white;
         top: 50px;
-
+left: 50px;
     }
     .designer-p-1{
         text-align: center;
     color: rgba(255, 255, 255, 0.908);
     position: relative;
     top: 11px;
-left: 115px;
+left: 135px;
 font-size: .9em;
     }
     .designer-infor{
@@ -364,7 +364,7 @@ font-size: .9em;
        text-align: center;
  color: white;
  font-size: 1em;
-left: 25px;
+left:65px;
 top: 40px;
 width: 300px;
     }
@@ -373,7 +373,7 @@ width: 300px;
     color: rgba(255, 255, 255, 0.908);
     font-size: .8em;
     position: relative;
-    left: 115px;
+    left: 135px;
     top: 10px;
     font-weight: normal;
     }
@@ -392,7 +392,7 @@ width: 300px;
         overflow: hidden; /* Esconde o conteúdo que ultrapassar os limites do link */
         top: 100px;
 text-align: center;
-left: 8px;
+left: 38px;
     }
     
 .strong-1{
