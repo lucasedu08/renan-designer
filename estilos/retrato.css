@@ -627,7 +627,9 @@ title{
 @media (min-width: 382px) and (max-width: 425px) {
 
 }
-
+@media (min-width: 383px) and (max-width: 386px) {
+    
+}
 @media (min-width: 381px) and (max-width: 382px) {
     .designer-imagem {
         position: relative;
@@ -799,6 +801,9 @@ title{
     background-color: black;
     color: white;
 }
+}
+@media (min-width: 359px) and (max-width: 410px) {
+
 }
 @media (min-width: 388px) and (max-width: 410px) {
     .designer-imagem {
