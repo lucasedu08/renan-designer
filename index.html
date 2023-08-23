@@ -348,7 +348,7 @@
 
 
         <div style="margin: auto;">
-            <a href="https://api.whatsapp.com/send?phone=558586644125" class="link-designer">
+            <a href="https://api.whatsapp.com/send?phone=558586644125" class="link-designer" onclick="clicar()">
                <strong class="strong-1">FAÇA SEU ORÇAMENTO</strong>
                 <strong class="strong-2">Me chame no WhatsApp</strong>
                 <img class="designer-imagem-2" src="imagens/designer-renan-wats-removebg-preview.png" alt="">
@@ -356,5 +356,27 @@
         </div>
     
  </div>
+
+ <script>
+    function clicar() {
+        var link = document.querySelector('.link-designer');
+    
+        if (link) {
+            link.addEventListener('click', function(event) {
+                event.preventDefault(); // Impede o link de redirecionar imediatamente
+    
+                var resposta = confirm("Você está prestes a ser redirecionado para o WhatsApp. Você realmente deseja ir?");
+    
+                if (resposta) {
+                    window.location.href = "https://api.whatsapp.com/send?phone=558586644125";
+                }
+            });
+        }
+    }
+    
+    // Chama a função para ativar o comportamento do clique
+    clicar();
+    
+ </script>
 </body>
 </html>
