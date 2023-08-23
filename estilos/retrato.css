@@ -9,8 +9,7 @@ body {
     background-position: left bottom;
     background-attachment: fixed;
     transition-duration: .9s;
-width: ;
-height: 100vh;
+    height: 100vh;
 }
 
 .designer-imagem {
@@ -154,7 +153,7 @@ padding: 10px;
         display: flex;
         border: .8px solid rgb(255, 255, 255);
         top: 50px;
-        left: 215px;
+        left: 61px;
     }
     .designer-p-1{
         text-align: center;
@@ -189,7 +188,7 @@ top: 40px;
         color: white;
         position: relative;
         height: 80px;
-        width: 280px;
+        width: 350px;
         padding: 30px;
         border: 2px solid white;
         border-radius: 10px;
@@ -198,7 +197,7 @@ top: 40px;
         overflow: hidden; /* Esconde o conteúdo que ultrapassar os limites do link */
         top: 100px;
 text-align: center;
-left: 95px;
+left: 55px;
     }
     
 .strong-1{
