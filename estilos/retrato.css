@@ -1065,7 +1065,7 @@ title{
     color: white;
 }
 }
-@media (min-width: 425px) and (max-width: 525px) {
+@media (min-width: 425px) and (max-width: 524px) {
     .designer-imagem {
         position: relative;
         top: 50px; /* Ajuste conforme necessário */
